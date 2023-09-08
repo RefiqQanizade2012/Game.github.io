@@ -18,12 +18,12 @@ header a {
 header > * {
   display: inline-block;
 }
-.headerdiv img {
-  width: 56px;
-  height: 56px;
-  margin-top: 25px;
-  margin-left: 30px;
-  margin-bottom: -16px;
+header img {
+  width: 130px;
+  height: 100px;
+}
+header nav {
+  margin-bottom: 300px;
 }
 .article {
   background-image: url(images/fc19f9998fe047f5a694ce05936e2ebc.png);
@@ -164,7 +164,6 @@ footer {
   );
   height: 500px;
   width: 2181px;
-  grid-template-areas: "a href", "a href", "a href", "a href";
 }
 footer > img {
   margin-left: 200px;
